@@ -1,0 +1,254 @@
+.icon {
+    background-color: rgb(238, 130, 238);
+    margin-top:20px ;
+    padding: 0;
+    display: flex;
+
+}
+.icon p{
+    
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        text-align: center;
+        font-size: larger;
+        width: 60%;
+        margin-left: 100px;
+      }
+      h5{
+        text-align: center;
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-size: 50px;
+      }
+      .links h2{
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        /* margin-left: 350px; */
+        /* padding-top: 20px; */
+        text-align: center;
+        margin-right: 30px;
+        
+      }
+      .links p{
+        margin-left: 200px;
+      }
+      
+.links h3{
+    float: right;
+    padding: 10px;
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.links h3:hover{
+    color: black;
+}
+/* .Pr{
+    margin-bottom: 80px;
+    padding-bottom: 30px;
+    margin-right: 200px;
+    border-bottom:3px solid  rgb(238, 130, 238)  ;
+} */
+.box{
+  font-family: "Teko", sans-serif;
+  font-weight: 550;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+.boxx{
+  background-color: azure;
+  padding: 10px;
+}
+.container{
+  background-color: rgb(220, 220, 175);
+}
+.box img{
+  /* border: 3px solid black; */
+  /* background-color: aqua; */
+  position:absolute;
+  width: 100px;
+  height: 70px;
+  animation: moveRight 4s infinite alternate-reverse ;
+  padding: 20px;
+  /* animation: moveLeft 10s infinite alternate; */
+}
+
+@keyframes moveRight {
+  0% {
+      left: 7%;
+  }
+  100% {
+      left: 40%;
+  }
+}
+.text{
+  width: 100px;
+  height: 60px;
+  padding: 10px;
+}
+.provide{
+  background-color: black;
+  color: azure;
+  text-align: center;
+  width: 40%;
+  /* margin-left: 100px; */
+
+}
+.school img{
+
+  position:absolute;
+  width: 100px;
+  height: 70px;
+  animation: moveRight 4s infinite alternate-reverse ;
+  padding:10px ;
+  /* background-color: aqua; */
+  /* margin-top: 10px; */
+}
+@keyframes moveRight {
+  0% {
+      left: 7%;
+  }
+  100% {
+      left: 40%;
+  }
+}
+.lunch img{
+  position:absolute;
+  width: 100px;
+  height: 50px;
+  animation: moveRight 4s infinite alternate-reverse ;
+  margin-top: 20px;
+
+}
+@keyframes moveRight {
+  0% {
+      left: 7%;
+  }
+  100% {
+      left: 40%;
+  }
+
+}
+.Lorem1{
+  float: right;
+  width: 50%;
+  font-size: 17px;
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  /* background-color: aqua; */
+  /* padding: 10px; */
+
+}
+.campus{
+  background-color: bisque;
+}
+.campus img{
+  height: 400px;
+  width: 500px;
+  margin-left: 30px;
+  /* padding: 30px; */
+}
+ .campus h2{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 50px;
+  margin-left: 80px;
+  padding-top: 20px;
+}
+.campus p{
+  width: 61%;
+  float: right;
+  line-height: 2.2;
+}
+footer{
+  margin-top: 1%;
+  background-color: rgb(239, 80, 239);
+  color: #fdfbfb;
+  padding: 30px;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+/* h1 {
+  background-color: burlywood;
+  /* margin-left: 40%; */
+  /* margin-right: 40%; */
+
+.top{
+  margin-left: 40px;
+  margin-top: 55px;
+  list-style-type: none;
+  /* background-color: rgb(78, 19, 133); */
+  display: flex;
+  
+}
+.top li{
+  /* background-color: aqua; */
+  margin-right: 70px;
+  font-size: 20px;
+  font-style: bolder;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+
+}
+.images{
+  background-color: rgb(230, 46, 240);
+  display: flex;
+  padding: 20px;
+  flex-wrap: nowrap;
+  
+}
+.title{
+   padding: 10px;
+ margin-left: 40px;
+ margin-top: 20px;
+ /* background-color: aquamarine; */
+ font-family: "Jacquard 24 Charted", system-ui;
+font-weight: 400;
+font-style: normal;
+font-size: 40px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+}
+.imgs {
+  padding: 10px;
+  background-color: beige;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   /* width: 100%; */
+   /* margin-left: 100px; */
+}
+.black{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-left: 30px;
+
+}
+.nav a{
+  white-space: nowrap;
+  padding: 15px 20px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fdfbfb;
+  text-decoration: none;
+  background-color: black;
+}
+.black li:hover a{
+  color:aqua;
+  text-decoration: underline;
+}
+.logos{
+  margin-left:180px ;
+  width: 250px;
+  height: 60px;
+  margin-top: 20px;
+}
+

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* body{
+        margin: 0;
+        padding: 0;
+      }
+      .html{
+        text-align: left;
+      }
+
+      div {
+        background-color: rgb(33, 144, 144);
+        margin-left: 30%;
+        margin-right: 30%;
+      } */
+      h1 {
+        background-color: burlywood;
+        /* margin-left: 40%; */
+        /* margin-right: 40%; */
+      }
+
+      .top{
+    margin-left: 40px;
+    margin-top: 55px;
+    list-style-type: none;
+    /* background-color: rgb(78, 19, 133); */
+    display: flex;
+    
+}
+.top li{
+    /* background-color: aqua; */
+    margin-right: 70px;
+    font-size: 20px;
+    font-style: bolder;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+
+
+}
+.images{
+    background-color: rgb(19, 48, 107);
+    display: flex;
+    padding: 20px; 
+     flex-wrap: nowrap;
+    float: left;
+    
+}
+h1{
+     padding: 10px;
+   margin-top: 20px;
+   font-family: "Jacquard 24 Charted", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  /* font-size: 40px; */
+  margin-left: 30px;
+  width: 100%;
+  
+
+  
+}
+.imgs {
+    padding: 10px;
+    background-color: beige;
+    width: 150px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     width: 100%; 
+     margin-left:100px;
+}
+.black{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    /* margin-left: 30px; */
+
+}
+.nav a{
+    white-space: nowrap;
+    padding: 15px 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #fdfbfb;
+    text-decoration: none;
+    background-color: black;
+}
+.black li:hover a{
+    color:aqua;
+}
+.logos{
+    margin-left:180px ;
+    width: 250px;
+    height: 60px;
+    margin-top: 20px;
+}
+.conat{
+      text-align: center;
+      padding: 40px;
+      margin-top: 200px;
+      margin-left: 35%;
+      margin-right: 30%;
+      background-color: rgb(217, 244, 244);
+    }
+    h2{
+      margin-left: 50%;
+      margin-right: 35%;
+      background-color: bisque;
+    }
+    footer,address{
+    /* margin-top: 65%; */
+    background-color: rgba(185, 77, 113, 0.575);
+    color: #fdfbfb;
+    padding: 30px;
+    font-size: 19px;
+   
+ }
+ footer,a{
+    text-decoration: none;
+    color: #fdfbfb;
+    word-spacing:10px;
+ }
+ input{
+  border:inset;
+  margin-left: 40px;
+  padding: 5px;
+  border-radius: 30px;
+ }
+ .password{
+  margin-right: 35px;
+
+ }
+ input:hover {
+background-color: bisque;
+ 
+ }
+ label{
+  color: #141414;
+  font-display:unset;
+  text-transform: uppercase;
+ }
+
+    </style>
+  </head>
+
+  <body>
+ 
+    <div class="images">
+      <img class="imgs" src="../html+css/images/symbol.png" alt="Symbol" />
+      <h1 class="title">Prakadesh Agencies</h1>
+
+      <nav class="nav">
+        <ul class="black">
+          <li class="nav-list"><a class="topic" href="../home/index.html">Home</a></li>
+          <li class="nav-list"><a class="topic" href="../about-us/index.html">About Us</a></li>
+          <li class="nav-list"><a class="topic" href="../carrer-page/index.html">Careers</a></li>
+          <li class="nav-list"><a class="topic" href="https://www.companypartners.com/">Patners</a></li>
+          <li class="nav-list"><a class="topic" href="https://docs.google.com/forms/d/e/1FAIpQLScl4A9t8M1HzyRbg3f5o0JzC1frhgh898DZZnoJvpPbmQ_Tvw/viewform?usp=sf_link">Feedback</a></li>
+        </ul>
+      </nav>
+
+      <img
+        class="logos"
+        src="../html+css/images/social-media-logo.jpg"
+        usemap="#mapwork"
+        width="250px"
+        height="100px"
+        alt="logos"
+      />
+      <map name="mapwork">
+        <area
+          title="Instagram"
+          shape="poly"
+          coords="15,20,47,17,48,63,8,56"
+          href="https://www.instagram.com/"
+          alt="instagram"
+        />
+        <area
+          title="Facebook"
+          shape="poly"
+          coords="55,19,98,21,95,63,57,61"
+          href="https://www.facebook.com/"
+          alt="facebook"
+        />
+        <area
+          title="Twitter"
+          shape="poly"
+          coords="107,28,143,25,138,61,108,60"
+          href="https://twitter.com/?lang=en"
+          alt="Twitter"
+        />
+        <area
+          title="linkdin"
+          shape="poly"
+          coords="201,21,241,23,239,59,201,59"
+          href="https://in.linkedin.com/"
+          alt="linkdin"
+        />
+        <area
+          title="Youtube"
+          shape="poly"
+          coords="154,25,197,20,189,59,154,58"
+          href="https://www.youtube.com/"
+          alt="Youtube"
+        />
+      </map>
+      </div>
+    
+   
+    
+      <br>
+      <div class="conat">
+        <h2>Login</h2>
+      <label title="name">Name:</label><input type="name" /> <br />
+     
+      <br />
+
+      <label title="email">Email:</label><input type="email" /><br />
+      <br />
+
+      <label  title="Password">Password:</label><input class="password" type="password" /><br />
+      <br />
+<br><br>
+<label for="submit"><a href="../html +css/index.html"><input type="submit" value="Submit" /></a></label>
+      <br />
+      <br />
+    </div>
+    <br>
+    <br>
+    <footer>
+      <div>
+        <address style="text-align: center;">
+          <a href="#">Contact Us </a> <a href="#">Feedback</a>
+          <a href="#"
+            >Copyright Policy Help Hyperlinking Policy Privacy Policy Terms &
+            Conditions
+          </a>
+          <span style="font-weight: 1000">Copyright © 2024</span>. <p >All Rights
+            Reserved by National Company Law Tribunal, India.</p>
+        </address>
+      </div>
+    </footer>
+  
+
+  </body>
+</html>
